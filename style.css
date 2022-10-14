@@ -1,0 +1,71 @@
+.header{
+  text-align: center;
+  font-size: large;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.Add-header{
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: mediumseagreen;
+}
+
+.inputs{
+  text-align: center;
+}
+
+.Name p{
+  font-size: 20px;
+  font-family:'Times New Roman', Times, serif;
+}
+.Name p input{
+  width: 40%;
+  padding: 5px;
+  box-sizing: border-box;
+}
+
+.date-amount{
+  display: flex;
+  justify-content: center;
+}
+
+.date-amount p{
+  font-size: 20px;
+  font-family:'Times New Roman', Times, serif;
+}
+.date-amount p input{
+  width: 65%;
+  padding: 5px;
+  box-sizing: border-box;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+table td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+table tr:nth-child(even) {
+  background-color: #dddddd;
+}
+.add-button{
+  text-align: center;
+  margin-bottom: 10px;
+}
+.button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: right;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
